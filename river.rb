@@ -31,11 +31,11 @@
   end 
   
   def flood=(flood)
-    @flood 1.3
+    @flood = 1.3
   end
   
   def dry_up=(dry_up)
-    @dry_up .5
+    @dry_up = .5
 end 
 
 end 
