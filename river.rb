@@ -35,7 +35,7 @@
   end
   
   def dry_up=(dry_up)
-    @dry_up = .5
+    @dry_up = 0.5
 end 
 
 end 
