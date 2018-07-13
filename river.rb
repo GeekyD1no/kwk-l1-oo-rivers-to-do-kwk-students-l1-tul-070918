@@ -30,8 +30,8 @@
     @countries
   end 
   
-  def flood=(flood)
-    @flood = 1.3
+  def discharge=(discharge)
+    @discharge = 1.3
   end
   
   def dry_up=(dry_up)
