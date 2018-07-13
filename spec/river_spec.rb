@@ -48,7 +48,7 @@ describe "River" do
     test_river = River.new("East")
     test_river.discharge = 100000
     test_river.dry_up
-    expect(test_river.discharge).to eq(100000/2), "The method 'flood' should decrease a river's discharge to 50%"
+    expect(test_river.discharge).to eq(100000/2),"The method 'flood' should decrease a river's discharge to 50%"
   end
 
 end
