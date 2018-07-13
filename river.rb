@@ -30,6 +30,14 @@
     @countries
   end 
   
+def discharge=(discharge)
+  @discharge = discharge
+end
+
+def discharge
+  @discharge
+end
+
  def flood
     @discharge= discharge*1.3
   end
